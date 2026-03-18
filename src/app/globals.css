@@ -40,3 +40,238 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+body {
+    background: #fff;
+    max-width: 500px;
+    margin: auto;
+    font-family: "Mona Sans", sans-serif;
+    line-height: 150%;
+    font-size: 15px;
+}
+/*==========LP CSS ======================*/
+.rating {	
+    font-size: 25px;
+}
+.rating input {
+  opacity: 0;
+  position: absolute;
+}
+.rating a,
+    .rating label {
+			float:right;
+			color: #FF9800;
+			text-decoration: none;
+			-webkit-transition: color .4s;
+			-moz-transition: color .4s;
+			-o-transition: color .4s;
+			transition: color .4s;
+		}
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating label:hover,
+		.rating a:hover,
+		.rating a:hover ~ a,
+		.rating a:focus,
+		.rating a:focus ~ a		{
+			color: #FF9800;
+			cursor: pointer;
+		}
+		.rating2 {
+			direction: rtl;
+            text-align: left;
+		}
+		.rating2 a {
+			float:none
+		}
+
+.landingPage .wrap-rw {
+    gap: 0px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start !important;
+    margin-bottom: 14px;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    scrollbar-width: none;
+}     
+
+.landingPage {
+    padding: 20px 0 50px 0;
+}
+
+.landingPage .top-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.landingPage .logo-icon > img {
+    max-width: 110px;
+}
+
+.landingPage .top-part .desc-right h1 {
+    font-size: 20px;
+}
+
+.landingPage .top-part .desc-right h4 {
+    color: #919191;
+    padding: 8px 0;
+    line-height: 120%;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.landingPage .logo-icon {
+    background: #101214;
+    border-radius: 20px;
+}
+
+.landingPage .top-part .desc-right button.btn,
+.landingPage .top-part .desc-right a {
+    background: #0088fe;
+    color: #fff;
+    padding: 8px 15px;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 0;
+    text-decoration: none;
+}
+
+.landingPage .top-part .desc-right a {
+    margin-top: 0px;
+    display: inline-block;
+    padding:4px 20px;
+} 
+
+.landingPage .wrap-rw .bx {
+    width: 100%;
+    min-width: 20%;
+    padding: 10px;
+    border-right: 1px solid #ededed;
+    min-width: 140px;
+    text-align: center;
+}
+.landingPage .wrap-rw .bx:first-child {
+    border-left: 1px solid #ededed;
+}
+.landingPage .wrap-rw .bx .text {
+    /* white-space: nowrap; */
+}
+
+.landingPage .wrap-rw .bx h4 {
+    font-weight: normal;
+    color: #959595;
+}
+
+.landingPage .wrap-rw .bx h2 {
+    padding: 7px 0;
+}
+
+.landingPage section.section-inc {
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.landingPage section.section-inc h2.title {
+    display: flex;
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+.landingPage section.section-inc h2.title .arw-btn {
+    transform: rotate(180deg);
+    margin-left: 10px;
+}
+
+.landingPage section.section-inc h2.title .arw-btn img {
+    max-width: 19px;
+}
+
+.landingPage section.section-inc .flx {
+    display: flex;
+    justify-content: space-between;
+    color: #959595;
+}
+
+.landingPage section.section-inc  .para {
+    padding: 10px 0;
+}
+
+section.section-preview {}
+
+.landingPage section.section-preview .prev-image {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.landingPage section.section-preview .prev-image img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.landingPage section.section-inc.section-04 {
+    margin-top: 10px;
+}
+
+.landingPage section.section-wnw.section-04 .rating-info h2 {
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+}
+
+.landingPage section.section-wnw.section-04 .rating-info {
+    align-items: center;
+}
+
+.landingPage section.section-wnw.section-04 .ri-rating {text-align: center;}
+
+.landingPage section.section-wnw.section-04 .ri-rating a {
+    font-size: 30px;
+}
+
+.landingPage section.section-wnw.section-04 .ri-rating .rating {
+    padding-bottom: 6px;
+}
+
+.landingPage section.section-wnw.section-04 .ri-rating .txt {
+    font-size: 16px;
+}
+
+.landingPage section.section-inc.section-privacy h2.title {
+    padding-bottom: 4px;
+}
+
+.landingPage section.section-inc.section-privacy .round-bx .bx {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 3px #00000017;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.landingPage section.section-inc.section-privacy .round-bx h4 {
+    font-weight: normal;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.landingPage section.section-inc .flx .time {
+    color: #111;
+}
+
+.landingPage section.section-information .flx.rw {
+    padding: 15px 0;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 15px;
+}
