@@ -12,7 +12,7 @@ const LandinPage = () => {
             <div className='logo-icon'><img src="images/applinkimg.jpeg"/></div>
             <div className='desc-right'>
                 <h1>AngelX</h1>
-                <h4>HTTPS://WWWW.ANGELX.CO/</h4>
+                <h4>HTTPS://WWW.ANGELX.CO/</h4>
                 <Link href="#" className='btn'>Download</Link>
             </div>
            </div>
