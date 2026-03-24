@@ -39,7 +39,7 @@ const LandinPage = () => {
                 <div className='bx'>
                     <h4>DEVELOPER</h4>
                     <h2><i className='fa fa-user'></i></h2>
-                    <div className="text">AngelX Ind</div>
+                    <div className="text">AngelX Inc.</div>
                 </div>
 
                 <div className='bx'>
@@ -125,7 +125,7 @@ the features you use or your age.  <Link href="#" style={{color:'#0076db'}}>Lear
                     <div className='flx rw'><div className='version'>Category</div> <div className='time'>Business </div></div>
                     <div className='flx rw'><div className='version'>Language</div> <div className='time'>English </div></div>
                     <div className='flx rw'><div className='version'>Age Rating</div> <div className='time'>4+ </div></div>
-                    <div className='flx rw'><div className='version'>Copyright</div> <div className='time'>© 2021 - 2026 angelx.pro </div></div>
+                    <div className='flx rw'><div className='version'>Copyright</div> <div className='time'>© 2021 - 2026 https://www.angelx.co/ </div></div>
                     <div className='flx rw'><div className='version' style={{color:'#0076db'}}>Developer Website</div> <div className='icon'><img src="images/tp-icon4.jpg" style={{maxWidth:"30px"}}/></div></div>
                 </div>
             </section>
